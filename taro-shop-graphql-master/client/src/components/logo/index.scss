@@ -1,0 +1,15 @@
+@import "../../styles/theme.scss";
+
+.logo_wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background: $background-color;
+
+    &-txt {
+        color: $text-color-lighter;
+        font-size: 28px;
+    }
+}
